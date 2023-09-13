@@ -1,0 +1,52 @@
+
+#container{
+    margin: 20px auto;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    
+}
+label{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#chocolateForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+input{
+    padding: 3px;
+}
+img{
+    height: 80px;
+    width: 80px;
+    vertical-align:middle;
+    border-radius: 50%
+}
+#price{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-left:80px ;
+}
+i{
+    color: coral;
+    width: 40px;
+    
+}
+#kart{
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
